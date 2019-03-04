@@ -40,3 +40,38 @@ ul.lista-productos{
     padding: 0;
     list-style: none;
 }
+ul.lista-productos li{
+    float: left;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+ul.lista-productos li:nth-child(2n+1){
+    clear: both;
+}
+ul.lista-productos li img{    
+    border: 10px solid rgba(128, 1, 195, .45);
+}
+ul.lista-productos li img:hover{    
+    border: 10px solid rgb(251, 251, 3);/*rgba(128, 1, 195, 1);*/    
+}
+p{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+span{
+    color: #ffce00;
+    font-size: 35px;
+}
+.boton{
+    background-color: #ffce00;
+    padding: 10px 40px;
+    display: inline-block; 
+    text-decoration: none;
+    color: rgba(128, 1, 195, 1);
+    font-weight: bold;
+}
+.boton:hover{
+    color: rgba(128, 1, 195, .8);
+}
