@@ -1,0 +1,17 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    text-align: center;
+    padding-top: 20px;
+}
+.contenedor{
+    margin: 0 auto;
+    width: 800px;
+}
