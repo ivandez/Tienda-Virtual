@@ -1,12 +1,23 @@
 html{
     box-sizing: border-box;
+    height: 100%;
 }
 *, *:before, *:after{
     box-sizing: inherit;
 }
 body{
+    height: 100%;
     font-family: 'Open Sans', sans-serif;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cb60b3+0,ad1283+50,de47ac+100;Pink+3D */
+background: #cb60b3; /* Old browsers */
+background: -moz-linear-gradient(top, #cb60b3 0%, #ad1283 50%, #de47ac 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #cb60b3 0%,#ad1283 50%,#de47ac 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #cb60b3 0%,#ad1283 50%,#de47ac 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=0 ); /* IE6-9 */
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
+
 header{
     text-align: center;
     padding-top: 20px;
@@ -14,4 +25,18 @@ header{
 .contenedor{
     margin: 0 auto;
     width: 800px;
+}
+div.hero img{
+    width: 90%;
+}
+div.productos h2{
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    /*margin: 30px 0;*/
+}
+ul.lista-productos{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
